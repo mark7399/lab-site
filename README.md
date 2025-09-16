@@ -1,2 +1,2 @@
-# Jiazhou Chen Lab Website (MkDocs + Material)
+# Jiazhou Chen Lab Website 
 
