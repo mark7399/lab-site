@@ -1,0 +1,55 @@
+site_name: Jiazhou Chen Lab
+site_description: 广东工业大学 生物信息学与脑科学课题组
+site_url: https://<your-username>.github.io/lab-site/
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - content.code.copy
+    - search.suggest
+    - toc.integrate
+    - navigation.footer
+  language: zh
+  icon:
+    logo: material/brain
+plugins:
+  - search
+  - bibtex:
+      bib_file: docs/assets/refs.bib
+      cite_inline: false
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: zh
+          default: true
+          name: 中文
+        - locale: en
+          name: English
+nav:
+  - 首页: index.zh.md
+  - 团队: people.zh.md
+  - 科研方向: research.zh.md
+  - 论文成果: publications.zh.md
+  - 项目&软件: projects.zh.md
+  - 新闻: news.zh.md
+  - 资源下载: downloads.zh.md
+  - 联系方式: contact.zh.md
+extra:
+  social:
+    - icon: material/school
+      link: https://scholar.google.com/
+    - icon: material/github
+      link: https://github.com/
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+extra_css:
+  - assets/ux.css

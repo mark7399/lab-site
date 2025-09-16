@@ -1,0 +1,6 @@
+mkdocs
+mkdocs-material
+mkdocs-bibtex
+mkdocs-git-revision-date-localized-plugin
+mkdocs-awesome-pages-plugin
+mkdocs-static-i18n
