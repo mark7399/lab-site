@@ -1,6 +1,6 @@
 site_name: Jiazhou Chen Lab
 site_description: 广东工业大学 生物信息学与脑科学课题组
-site_url: https://mark7399.github.io/lab-site/
+site_url: https://<mark7399>.github.io/lab-site/
 theme:
   name: material
   features:
