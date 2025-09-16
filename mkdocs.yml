@@ -3,6 +3,7 @@ site_description: 广东工业大学 生物信息学与脑科学课题组
 site_url: https://mark7399.github.io/lab-site/
 theme:
   name: material
+  logo: assets/gdut-logo.svg
   features:
     - navigation.tabs
     - navigation.instant
@@ -11,8 +12,16 @@ theme:
     - toc.integrate
     - navigation.footer
   language: zh
-  icon:
-    logo: material/brain
+  palette:
+    - scheme: default
+      primary: white
+      accent: deep purple
+    - scheme: slate
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: 夜间模式
 
 plugins:
   - search
@@ -24,20 +33,34 @@ plugins:
         - locale: zh
           default: true
           name: 中文
+          nav:
+            - HOME: index.zh.md
+            - RESEARCH:
+              - Overview: research.zh.md
+              - Platforms & Software: projects.zh.md
+            - NEWS: news.zh.md
+            - PUBLICATIONS: publications.zh.md
+            - MEMBERS:
+              - Team: people.zh.md
+            - JOIN US:
+              - Opportunities: contact.zh.md
+              - Resources: downloads.zh.md
         - locale: en
           name: English
+          nav:
+            - HOME: index.en.md
+            - RESEARCH:
+              - Overview: research.en.md
+              - Platforms & Software: projects.en.md
+            - NEWS: news.en.md
+            - PUBLICATIONS: publications.en.md
+            - MEMBERS:
+              - Team: people.en.md
+            - JOIN US:
+              - Opportunities: contact.en.md
+              - Resources: downloads.en.md
   - git-revision-date-localized:
       fallback_to_build_date: true
-
-nav:
-  - 首页: index.zh.md
-  - 团队: people.zh.md
-  - 科研方向: research.zh.md
-  - 论文成果: publications.zh.md
-  - 项目&软件: projects.zh.md
-  - 新闻: news.zh.md
-  - 资源下载: downloads.zh.md
-  - 联系方式: contact.zh.md
 
 extra:
   social:
