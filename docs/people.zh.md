@@ -1,12 +1,4 @@
-# 团队（Team）
-
 ## 负责人 Principal Investigator
-**陈佳洲 副教授**  
-广东工业大学计算机学院“百人计划”特聘副教授，博士生导师，生物信息学与脑科学课题组负责人。长期从事生物医学数据智能分析、脑网络建模与多模态学习研究，主持国家重点研发计划与国家自然科学基金等项目。
-
-## 成员 Members
-
-<details class="member-card">
 <summary><strong>陈佳洲</strong> · 副教授，广东工业大学计算机学院</summary>
 
 - **研究方向**：生物医学数据智能分析、复杂生物网络分析、生物信息学、脑科学
@@ -39,7 +31,6 @@
 ### 学术服务
 - 担任 IEEE TMI、IEEE JBHI、IEEE TNNLS、Briefings in Bioinformatics 等期刊审稿人
 - 中国人工智能学会生物信息学与人工生命专委会执行委员
-- 中国计算机学会生物信息学专委会执行委员
-</details>
+
 
 > 将照片放入 `docs/assets/people/`，在此添加更多团队成员。
