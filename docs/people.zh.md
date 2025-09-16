@@ -4,10 +4,6 @@
 **陈佳洲 副教授**  
 广东工业大学计算机学院“百人计划”特聘副教授，博士生导师，生物信息学与脑科学课题组负责人。长期从事生物医学数据智能分析、脑网络建模与多模态学习研究，主持国家重点研发计划与国家自然科学基金等项目。
 
-- 邮箱：[csjzchen@gdut.edu.cn](mailto:csjzchen@gdut.edu.cn)
-- 手机：(+86) 188-2411-9115
-- 学术主页：[广东工业大学计算机学院](https://cs.gdut.edu.cn/info/2241/4707.htm)
-
 ## 成员 Members
 
 <details class="member-card">
