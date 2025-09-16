@@ -13,13 +13,11 @@ theme:
   language: zh
   icon:
     logo: material/brain
+
 plugins:
   - search
   - bibtex:
       bib_file: docs/assets/refs.bib
-      cite_inline: false
-  - git-revision-date-localized:
-      fallback_to_build_date: true
   - i18n:
       docs_structure: suffix
       languages:
@@ -28,6 +26,9 @@ plugins:
           name: 中文
         - locale: en
           name: English
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+
 nav:
   - 首页: index.zh.md
   - 团队: people.zh.md
@@ -37,12 +38,14 @@ nav:
   - 新闻: news.zh.md
   - 资源下载: downloads.zh.md
   - 联系方式: contact.zh.md
+
 extra:
   social:
     - icon: material/school
       link: https://scholar.google.com/
     - icon: material/github
       link: https://github.com/
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -51,5 +54,6 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+
 extra_css:
   - assets/ux.css
