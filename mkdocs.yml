@@ -1,0 +1,82 @@
+site_name: Jiazhou Chen Lab
+site_description: 广东工业大学 生物信息学与脑科学课题组
+site_url: https://mark7399.github.io/lab-site/
+theme:
+  name: material
+  logo: assets/gdut-logo.svg
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - content.code.copy
+    - search.suggest
+    - toc.integrate
+    - navigation.footer
+  language: zh
+  palette:
+    - scheme: default
+      primary: white
+      accent: deep purple
+    - scheme: slate
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: 夜间模式
+
+plugins:
+  - search
+  - bibtex:
+      bib_file: docs/assets/refs.bib
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: zh
+          default: true
+          name: 中文
+          nav:
+            - HOME: index.zh.md
+            - RESEARCH:
+              - Overview: research.zh.md
+              - Platforms & Software: projects.zh.md
+            - NEWS: news.zh.md
+            - PUBLICATIONS: publications.zh.md
+            - MEMBERS:
+              - Team: people.zh.md
+            - JOIN US:
+              - Opportunities: contact.zh.md
+              - Resources: downloads.zh.md
+        - locale: en
+          name: English
+          nav:
+            - HOME: index.en.md
+            - RESEARCH:
+              - Overview: research.en.md
+              - Platforms & Software: projects.en.md
+            - NEWS: news.en.md
+            - PUBLICATIONS: publications.en.md
+            - MEMBERS:
+              - Team: people.en.md
+            - JOIN US:
+              - Opportunities: contact.en.md
+              - Resources: downloads.en.md
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+
+extra:
+  social:
+    - icon: material/school
+      link: https://scholar.google.com/
+    - icon: material/github
+      link: https://github.com/
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - assets/ux.css
