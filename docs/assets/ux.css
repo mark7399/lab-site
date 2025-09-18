@@ -435,3 +435,20 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Publications styling */
+.md-typeset .footnote ol > li > p {
+  line-height: 1.7;
+}
+
+.md-typeset .publication-title {
+  display: inline-block;
+  margin: 0.1em 0;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: var(--lab-ink);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .publication-title {
+  color: rgba(255, 255, 255, 0.92);
+}
