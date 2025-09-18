@@ -1,2 +1,3 @@
 # Publications
-{% bibliography %}
+
+\full_bibliography
