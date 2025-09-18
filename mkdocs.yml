@@ -80,3 +80,5 @@ markdown_extensions:
 
 extra_css:
   - assets/ux.css
+extra_javascript:
+  - assets/publications.js
